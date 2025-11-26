@@ -12,3 +12,6 @@ def contains_python(line):
 
 filtered_long_lines = list(filter_file_data('data.txt', is_long_line))
 filtered_python_lines = list(filter_file_data('data.txt', contains_python))
+
+print("Длинные строки:", filtered_long_lines)
+print("Строки с 'python':", filtered_python_lines)
